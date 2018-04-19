@@ -208,7 +208,7 @@ body {
 * Body
 */
 body {
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 1.6;
@@ -280,7 +280,7 @@ hr {
 h1, h2, h3, h4, h5, h6, [class^='heading-'] {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #29293a;
@@ -327,7 +327,7 @@ h1,
 
 h2,
 .heading-2 {
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-size: 28px;
 	line-height: 1.2;
 	text-transform: none;
@@ -430,7 +430,7 @@ h4,
 
 h5,
 .heading-5 {
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-size: 19px;
 	line-height: 1.5;
@@ -3812,7 +3812,7 @@ h6.box-info-title,
 }
 
 .box-auction-title {
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: .06em;
@@ -4257,7 +4257,7 @@ h6.box-info-title,
 	max-width: 100%;
 	padding: 9px 30px;
 	min-width: 210px;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
@@ -4845,7 +4845,7 @@ h6.box-info-title,
 .btn {
 	padding: 10px 20px;
 	border-radius: 35px;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
@@ -5297,7 +5297,7 @@ h6.box-info-title,
 }
 
 .event-default-date {
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
 
@@ -5619,7 +5619,7 @@ h6.box-info-title,
 
 .page-footer-inline-list {
 	color: #29293a;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	margin-bottom: -10px;
 	transform: translateY(-10px);
 	margin-left: -10px;
@@ -6532,7 +6532,7 @@ textarea.form-input.form-input-lg {
 	line-height: 1.25;
 	text-transform: uppercase;
 	letter-spacing: 0.12em;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
 
@@ -6577,7 +6577,7 @@ textarea.form-input.form-input-lg {
 	line-height: 1.25;
 	text-transform: uppercase;
 	letter-spacing: 0.12em;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	color: #fff;
 }
@@ -7570,7 +7570,7 @@ textarea.form-input.form-input-lg {
 }
 
 .modal-price {
-	font: 400 24px/1 "Oswald", Helvetica, Arial, sans-serif;
+	font: 400 24px/1 "Montserrat", Helvetica, Arial, sans-serif;
 	letter-spacing: 0.12em;
 	color: #29293a;
 }
@@ -7809,7 +7809,7 @@ textarea.form-input.form-input-lg {
 }
 
 .pagination-custom > li {
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.12em;
 	min-width: 50px;
@@ -8547,7 +8547,7 @@ textarea.form-input.form-input-lg {
 	display: inline-block;
 	padding: 4px 11px;
 	border-radius: 20px;
-	font: 300 14px/1 "Lato", Helvetica, Arial, sans-serif;
+	font: 300 14px/1 "Montserrat", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: .04em;
 }
@@ -11246,7 +11246,7 @@ textarea.form-input.form-input-lg {
 
 .team-inline-title {
 	text-transform: uppercase;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	letter-spacing: .12em;
 }
 
@@ -11365,7 +11365,7 @@ textarea.form-input.form-input-lg {
 	margin-right: auto;
 	transition: 450ms ease-in-out;
 	color: #ed1c94;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 }
 
@@ -11987,7 +11987,7 @@ textarea.form-input.form-input-lg {
 }
 
 .tooltip-custom + .tooltip .tooltip-inner {
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	max-width: 253px;
 	padding: 5px 12px;
 	font-size: 18px;
@@ -14645,7 +14645,7 @@ h3 + .divider + h5 + p {
 }
 
 .heading-decor {
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 200;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
@@ -21610,7 +21610,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .dtp-actual-month, .dtp-actual-num, .dtp-actual-year {
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
@@ -21876,7 +21876,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .countdown {
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 1.3;
@@ -21964,7 +21964,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	fill: #9b9b9b;
 	font-size: 12px;
 	font-weight: 400;
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
@@ -22617,7 +22617,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 		display: inline-block;
 		max-width: 100%;
 		padding: 11px 25px;
-		font-family: "Oswald", Helvetica, Arial, sans-serif;
+		font-family: "Montserrat", Helvetica, Arial, sans-serif;
 		font-weight: 400;
 		font-size: 14px;
 		letter-spacing: 0.12em;
@@ -23412,7 +23412,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .rd-navbar-shop .rd-navbar-shop-icon span {
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 .rd-navbar-search-toggle {
@@ -23420,7 +23420,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .rd-navbar-nav > li > a {
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: .1em;
@@ -23436,7 +23436,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 
 .rd-navbar-login .rd-navbar-shop-icon span {
 	padding-left: 5px;
-	font: 300 18px/1.2 "Lato", Helvetica, Arial, sans-serif;
+	font: 300 18px/1.2 "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -26292,7 +26292,7 @@ ol ol {
 	padding: 7px 4px;
 	text-align: center;
 	border: 2px solid #ededed;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
@@ -26603,7 +26603,7 @@ html.tablet .ui-to-top {
 .tabs-buttons .nav-tabs li a {
 	padding: 7px 10px;
 	border-radius: 35px;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 0.12em;
@@ -26947,7 +26947,7 @@ html.tablet .ui-to-top {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-size: 28px;
 	line-height: 28px;
@@ -27085,7 +27085,7 @@ html.tablet .ui-to-top {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 16px !important;
 	letter-spacing: 0;
@@ -27116,7 +27116,7 @@ html.tablet .ui-to-top {
 .time_circles > div > span {
 	display: block;
 	text-align: center;
-	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-size: 24px !important;
 	font-weight: 400;
 	line-height: 1 !important;
@@ -29560,7 +29560,7 @@ yx-axis
 		border: 0;
 		text-align: left;
 		text-transform: none;
-		font-family: "Lato", Helvetica, Arial, sans-serif;
+		font-family: "Montserrat", Helvetica, Arial, sans-serif;
 		color: #29293a;
 		letter-spacing: 0;
 		font-weight: 300;
@@ -30432,7 +30432,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	display: block;
 	white-space: pre;
 	padding: 4px 12px;
-	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 12px;
 }
 
@@ -32506,7 +32506,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 }
 
 .jp-video {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	position: relative;
 	background: #000000;
 }
@@ -33331,7 +33331,7 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 
 .twitter-feed-block .twitter-feed-name h5 {
 	font-size: 18px;
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	color: #29293a;
 }
@@ -34087,7 +34087,7 @@ img.mfp-img {
 	display: inline-block;
 	padding-left: 7px;
 	padding-right: 7px;
-	font: 400 14px/18px "Lato", Helvetica, Arial, sans-serif;
+	font: 400 14px/18px "Montserrat", Helvetica, Arial, sans-serif;
 	color: #29293a;
 }
 
@@ -34354,7 +34354,7 @@ img.mfp-img {
 .thumbnail-small-header {
 	position: relative;
 	z-index: 1;
-	font: 300 14px/20px "Lato", Helvetica, Arial, sans-serif;
+	font: 300 14px/20px "Montserrat", Helvetica, Arial, sans-serif;
 	color: inherit;
 }
 
