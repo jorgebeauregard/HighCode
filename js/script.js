@@ -1212,7 +1212,7 @@ $document.ready(function () {
           autoplay: isNoviBuilder ? null : s.attr('data-autoplay') ? s.attr('data-autoplay') === "false" ? undefined : s.attr('data-autoplay') : 5000,
           direction: s.attr('data-direction') ? s.attr('data-direction') : "horizontal",
           effect: s.attr('data-slide-effect') ? s.attr('data-slide-effect') : "slide",
-          speed: s.attr('data-slide-speed') ? s.attr('data-slide-speed') : 600,
+          speed: s.attr('data-slide-speed') ? s.attr('data-slide-speed') : 6000,
           autoHeight: s.attr('data-auto-height') ? s.attr('data-auto-height') === "true" : false,
           keyboardControl: s.attr('data-keyboard') === "true",
           mousewheelControl: s.attr('data-mousewheel') === "true",
