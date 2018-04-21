@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800" rel="stylesheet"> 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mdi.css">
@@ -42,7 +42,7 @@
                     <li><a href="main.html">Home</a></li>
                     <li><a href="experience.html">Experience</a></li>
                     <li class="active"><a href="gallery.html">Gallery</a></li>
-                    <li><a href="#">Editions</a></li>
+                    <li><a href="editions.html">Editions</a></li>
                   </ul>
                 </div>
               </div>
@@ -53,67 +53,258 @@
       </header>
 
       <!-- Horizontal button tabs-->
-      <section class="section section-lg bg-white text-center">
+      <section class="section section-lg bg-black text-center">
         <div><!--Prev: <div class="shell">-->
-          <h3>Campañas</h3>
+          <h3 class="subtitle white">Campañas</h3>
           <div class="range range-50 range-sm-center">
             <div class="cell-sm-9 cell-md-8 cell-lg-12"> 
               <div class="tabs-custom tabs-horizontal tabs-buttons" id="tabs-2">
                 <!-- Nav tabs-->
                 <ul class="nav nav-tabs text-center">
-                  <li class="active"><a class="button-nina" href="#tabs-4-1" data-toggle="tab">Fotos</a></li>
-                  <li><a class="button-nina" href="#tabs-4-2" data-toggle="tab">Videos</a></li>
+                  <li class="active"><a class="button-nina" href="#tabs-4-1" data-toggle="tab" style="color: white; letter-spacing: 5px;">Fotos</a></li>
+                  <li><a class="button-nina" href="#tabs-4-2" data-toggle="tab" style="color: white;">Videos</a></li>
                 </ul>
                 <!-- Tab panes-->
                 <div class="tab-content">
                   <div class="tab-pane fade in active" id="tabs-4-1">
                     <!-- cobbles gallery-->
-                    <section class="section section-lg text-center bg-white">
+                    <section class="section section-lg text-center bg-black">
                         <div class="isotope-wrap range range-50">
                           <!-- Isotope Content-->
                           <div class="cell-lg-12">
                             <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery-03" data-lightgallery="group">
                               <div class="row row-condensed row-no-gutter">
-                                <div class="col-xs-12 col-sm-6 col-md-7 isotope-item" data-filter="type 1"><a class="gallery-item gallery-item-fullwidth" href="images/gallery-01-original.jpg" data-lightgallery="group-item">
+
+                                <!--Savage-->
+                                <div class="col-xs-12 col-sm-6 col-md-7 isotope-item" data-filter="type 1">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/1-savage.jpg" data-lightgallery="group-item">
                                     <div class="gallery-item-image">
-                                      <figure><img src="images/gallery-cobbles-01-1120x650.jpg" alt="" width="1120" height="650"/>
-                                      </figure>
+                                      <figure><img src="images/0-savage.jpg" alt="" width="1120" height="650"/></figure>
+                                      <div class="caption">
+                                        <p class="caption-title">SAVAGE</p>
+                                        <p class="caption-text">Atrévete a experimentar el lado salvaje de la moda</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-7 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/2-savage.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/2-savage.jpg" alt="" width="1120" height="650"/></figure>
                                       <div class="caption">
                                         <p class="caption-title">photo #1</p>
                                         <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
                                       </div>
-                                    </div></a>
+                                    </div>
+                                  </a>
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1"><a class="gallery-item gallery-item-fullwidth" href="images/gallery-03-original.jpg" data-lightgallery="group-item">
+
+                                <div class="col-xs-12 col-sm-6 col-md-7 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/3-savage.jpg" data-lightgallery="group-item">
                                     <div class="gallery-item-image">
-                                      <figure><img src="images/gallery-cobbles-02-800x650.jpg" alt="" width="800" height="650"/>
+                                      <figure><img src="images/3-savage.jpg" alt="" width="1120" height="650"/></figure>
+                                      <div class="caption">
+                                        <p class="caption-title">photo #1</p>
+                                        <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-7 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/4-savage.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/4-savage.jpg" alt="" width="1120" height="650"/></figure>
+                                      <div class="caption">
+                                        <p class="caption-title">photo #1</p>
+                                        <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-7 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/5-savage.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/5-savage.jpg" alt="" width="1120" height="650"/></figure>
+                                      <div class="caption">
+                                        <p class="caption-title">photo #1</p>
+                                        <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <!--/Savage-->
+
+                                <!--Colors-->
+                                
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/1-colors.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/0-colors.jpg" alt="" width="800" height="650"/>
+                                      </figure>
+                                      <div class="caption">
+                                        <p class="caption-title">Colors</p>
+                                        <p class="caption-text">Disfruta de tu estilo, ¡siente los colores!</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/2-colors.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/2-colors.jpg" alt="" width="800" height="650"/>
                                       </figure>
                                       <div class="caption">
                                         <p class="caption-title">photo #2</p>
                                         <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
                                       </div>
-                                    </div></a>
+                                    </div>
+                                  </a>
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1"><a class="gallery-item gallery-item-fullwidth" href="images/gallery-02-original.jpg" data-lightgallery="group-item">
+
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/3-colors.jpg" data-lightgallery="group-item">
                                     <div class="gallery-item-image">
-                                      <figure><img src="images/gallery-cobbles-03-800x650.jpg" alt="" width="800" height="650"/>
+                                      <figure><img src="images/3-colors.jpg" alt="" width="800" height="650"/>
+                                      </figure>
+                                      <div class="caption">
+                                        <p class="caption-title">photo #2</p>
+                                        <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/4-colors.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/4-colors.jpg" alt="" width="800" height="650"/>
+                                      </figure>
+                                      <div class="caption">
+                                        <p class="caption-title">photo #2</p>
+                                        <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/5-colors.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/5-colors.jpg" alt="" width="800" height="650"/>
+                                      </figure>
+                                      <div class="caption">
+                                        <p class="caption-title">photo #2</p>
+                                        <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <!--/Colors-->
+
+                                <!--Classy-->
+
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/1-classy.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/0-classy.jpg" alt="" width="800" height="650"/>
                                       </figure>
                                       <div class="caption">
                                         <p class="caption-title">photo #3</p>
                                         <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
                                       </div>
-                                    </div></a>
+                                    </div>
+                                  </a>
                                 </div>
-                                <div class="col-xs-12 col-sm-6 col-md-7 isotope-item" data-filter="type 2"><a class="gallery-item gallery-item-fullwidth" href="images/gallery-06-original.jpg" data-lightgallery="group-item">
+
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/2-classy.jpg" data-lightgallery="group-item">
                                     <div class="gallery-item-image">
-                                      <figure><img src="images/gallery-cobbles-04-1120x650.jpg" alt="" width="1120" height="650"/>
+                                      <figure><img src="images/2-classy.jpg" alt="" width="800" height="650"/>
+                                      </figure>
+                                      <div class="caption">
+                                        <p class="caption-title">photo #3</p>
+                                        <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/3-classy.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/3-classy.jpg" alt="" width="800" height="650"/>
+                                      </figure>
+                                      <div class="caption">
+                                        <p class="caption-title">photo #3</p>
+                                        <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/4-classy.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/4-classy.jpg" alt="" width="800" height="650"/>
+                                      </figure>
+                                      <div class="caption">
+                                        <p class="caption-title">photo #3</p>
+                                        <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-5 isotope-item" data-filter="type 1" style="display:none;">
+                                    <a class="gallery-item gallery-item-fullwidth" href="images/5-classy.jpg" data-lightgallery="group-item">
+                                      <div class="gallery-item-image">
+                                        <figure><img src="images/5-classy.jpg" alt="" width="800" height="650"/>
+                                        </figure>
+                                        <div class="caption">
+                                          <p class="caption-title">photo #3</p>
+                                          <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
+                                        </div>
+                                      </div>
+                                    </a>
+                                  </div>
+
+                                <!--/Classy-->
+
+                                <!--My Code-->
+
+                                <div class="col-xs-12 col-sm-6 col-md-7 isotope-item" data-filter="type 2">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/1-mycode.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/0-mycode.jpg" alt="" width="1120" height="650"/>
+                                      </figure>
+                                      <div class="caption">
+                                        <p class="caption-title">MY CODE</p>
+                                        <p class="caption-text">Deja que el estilo te acompañe a donde quiera que vayas. Vive tu estilo; establece tu código.  </p>
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-6 col-md-7 isotope-item" data-filter="type 2" style="display:none;">
+                                  <a class="gallery-item gallery-item-fullwidth" href="images/2-mycode.jpg" data-lightgallery="group-item">
+                                    <div class="gallery-item-image">
+                                      <figure><img src="images/2-mycode.jpg" alt="" width="1120" height="650"/>
                                       </figure>
                                       <div class="caption">
                                         <p class="caption-title">photo #4</p>
                                         <p class="caption-text">Brave offers you a variety of useful features based on Bootstrap framework.</p>
                                       </div>
-                                    </div></a>
+                                    </div>
+                                  </a>
                                 </div>
+                                <!--/My Code-->
+
                               </div>
                             </div>
                           </div>
@@ -123,7 +314,7 @@
                   </div>
                   <div class="tab-pane fade" id="tabs-4-2">
                     <!-- video gallery-->
-                    <section class="section section-lg text-center bg-white">
+                    <section class="section section-lg text-center bg-black">
                       <div class="shell-wide">
                         <div class="isotope-wrap range range-0 range-sm-30">
                           <div class="cell-lg-12">
@@ -164,7 +355,7 @@
       
 
       <!-- Page Footer-->
-      <footer class="section page-footer page-footer-alternative bg-gray-darker">
+      <footer class="section page-footer page-footer-alternative bg-black">
         <div class="shell-wide">
           <div class="range range-50 range-xs-center range-lg-justify">
             <div class="cell-sm-6 cell-lg-3">
